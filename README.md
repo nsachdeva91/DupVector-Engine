@@ -20,8 +20,8 @@ This project is a multimodal video deduplication system that identifies **duplic
 
 ## 🚀 Installation
 
-git clone xxxxx
-cd xxxxxx
+git clone https://github.com/nsachdeva91/DupVector-Engine.git
+cd DupVector-Engine
 python -m venv venv
 source venv/bin/activate      # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
