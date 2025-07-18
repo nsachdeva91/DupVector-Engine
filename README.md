@@ -17,15 +17,15 @@ This project is a multimodal video deduplication system that identifies **duplic
 - 🧮 **Clustering** via DBSCAN over weighted multimodal embeddings
 
 ---
-
 ## 🚀 Installation
 
+```bash
 git clone https://github.com/nsachdeva91/DupVector-Engine.git
 cd DupVector-Engine
 python -m venv venv
 source venv/bin/activate      # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -46,8 +46,9 @@ MongoDB (optional for metadata persistence)
 ## 🧪 Run the Deduplication Dashboard
 
 
+```bash
 streamlit run deduplicator.py
-
+```
 Upload a video file, or browse clustered duplicates from your indexed set.
 
 ---
